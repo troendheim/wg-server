@@ -19,7 +19,7 @@ services:
 
     volumes:
       - ./config:/config
-      - /lib/moduels:/lib/modules
+      - /lib/modules:/lib/modules
 
     ports:
       - 51820:51820/udp
